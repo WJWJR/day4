@@ -60,10 +60,16 @@ footer {
 }
 
 footer span {
-  display: flex;
+  /*display: -webkit-flex;*/
+     display: flex;
+    /* -webkit-flex-direction: row;*/
+     flex-direction: row;
+    /* -webkit-justify-content: flex-end;*/
+     justify-content: flex-end;
+  /*display: flex;*/
   align-items: flex-start;
-  justify-content: space-between;
-  flex: 1;
+  /*justify-content: space-between;
+  flex: 1;*/
 }
 
 /*footer .byline .numbers{
@@ -87,6 +93,6 @@ footer span {
 	border-right: 8px solid transparent;
 	border-top: 7px solid #eaeaea;
   position: relative;
-  left: 90%;
+  left: 96%;
   top: -4px;
 }
